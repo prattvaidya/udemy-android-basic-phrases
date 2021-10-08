@@ -25,7 +25,9 @@
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
-            android:text="Button"
+            android:text="Do you speak\nEnglish?"
+            android:tag="doyouspeakenglish"
+            android:onClick="playPhrase"
             app:layout_column="0"
             app:layout_row="0" />
 
@@ -34,7 +36,9 @@
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
-            android:text="Button"
+            android:text="Good Evening!"
+            android:tag="goodevening"
+            android:onClick="playPhrase"
             app:layout_column="1"
             app:layout_row="0" />
 
@@ -43,7 +47,9 @@
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
-            android:text="Button"
+            android:text="Hello!"
+            android:tag="hello"
+            android:onClick="playPhrase"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -52,7 +58,9 @@
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
-            android:text="Button"
+            android:text="How are you?"
+            android:tag="howareyou"
+            android:onClick="playPhrase"
             app:layout_column="1"
             app:layout_row="1" />
 
@@ -61,7 +69,9 @@
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
-            android:text="Button"
+            android:text="I live in .."
+            android:tag="ilivein"
+            android:onClick="playPhrase"
             app:layout_column="0"
             app:layout_row="2" />
 
@@ -70,7 +80,9 @@
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
-            android:text="Button"
+            android:text="My Name is .."
+            android:tag="mynameis"
+            android:onClick="playPhrase"
             app:layout_column="1"
             app:layout_row="2" />
 
@@ -79,7 +91,9 @@
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
-            android:text="Button"
+            android:text="Please!"
+            android:tag="please"
+            android:onClick="playPhrase"
             app:layout_column="0"
             app:layout_row="3" />
 
@@ -88,7 +102,9 @@
             app:layout_gravity="fill"
             app:layout_rowWeight="1"
             app:layout_columnWeight="1"
-            android:text="Button"
+            android:text="Welcome!"
+            android:tag="welcome"
+            android:onClick="playPhrase"
             app:layout_column="1"
             app:layout_row="3" />
     </androidx.gridlayout.widget.GridLayout>
